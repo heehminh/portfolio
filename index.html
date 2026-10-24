@@ -15,6 +15,21 @@
       rel="stylesheet"
     />
     <style>
+      .github-icon {
+        width: 40px;
+        padding-top: 20px;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .github-icon {
+          content: url("https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-white-icon.png");
+        }
+      }
+
+      a:has(.github-icon) {
+        text-decoration: none;
+      }
+
       :root {
         --ink: #14161f;
         --sub: #555a6b;
@@ -419,9 +434,9 @@ HAVING 누적금액 &lt; 이전금액;</pre
                 rel="noreferrer noopener"
               >
                 <img
-                  style="padding-top: 20px"
+                  class="github-icon"
                   src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png"
-                  width="40px"
+                  alt="GitHub"
                 />
               </a>
             </div>
@@ -461,9 +476,9 @@ HAVING 누적금액 &lt; 이전금액;</pre
                 rel="noreferrer noopener"
               >
                 <img
-                  style="padding-top: 20px"
+                  class="github-icon"
                   src="https://cdn-icons-png.flaticon.com/512/2111/2111432.png"
-                  width="40px"
+                  alt="GitHub"
                 />
               </a>
               <a
